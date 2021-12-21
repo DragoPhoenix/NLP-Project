@@ -12,10 +12,11 @@ dependencies:
   - backcall=0.2.0=pyhd3eb1b0_0
   - blas=1.0=mkl
   - bleach=4.0.0=pyhd3eb1b0_0
+  - bottleneck=1.3.2=py38h2a96729_1
   - brotli=1.0.9=ha925a31_2
   - brotlipy=0.7.0=py38h2bbff1b_1003
-  - ca-certificates=2021.10.8=h5b45459_0
-  - certifi=2021.10.8=py38haa244fe_1
+  - ca-certificates=2021.10.26=haa95532_2
+  - certifi=2021.10.8=py38haa95532_0
   - cffi=1.15.0=py38h2bbff1b_0
   - charset-normalizer=2.0.4=pyhd3eb1b0_0
   - colorama=0.4.4=pyhd3eb1b0_0
@@ -28,6 +29,7 @@ dependencies:
   - entrypoints=0.3=py38_0
   - fonttools=4.25.0=pyhd3eb1b0_0
   - freetype=2.10.4=hd328e21_0
+  - icc_rt=2019.0.0=h0cc432a_1
   - icu=58.2=ha925a31_3
   - idna=3.2=pyhd3eb1b0_0
   - importlib-metadata=4.8.1=py38haa95532_0
@@ -38,6 +40,7 @@ dependencies:
   - ipython_genutils=0.2.0=pyhd3eb1b0_1
   - jedi=0.18.0=py38haa95532_1
   - jinja2=3.0.2=pyhd3eb1b0_0
+  - joblib=1.1.0=pyhd3eb1b0_0
   - jpeg=9d=h2bbff1b_0
   - json5=0.9.6=pyhd3eb1b0_0
   - jsonschema=3.2.0=pyhd3eb1b0_2
@@ -100,11 +103,13 @@ dependencies:
   - nbformat=5.1.3=pyhd3eb1b0_0
   - nest-asyncio=1.5.1=pyhd3eb1b0_0
   - notebook=6.4.5=py38haa95532_0
+  - numexpr=2.7.3=py38hb80d3ca_1
   - numpy=1.21.2=py38hfca59bb_0
   - numpy-base=1.21.2=py38h0829f74_0
   - olefile=0.46=pyhd3eb1b0_0
-  - openssl=1.1.1l=h8ffe710_0
+  - openssl=1.1.1l=h2bbff1b_0
   - packaging=21.0=pyhd3eb1b0_0
+  - pandas=1.3.4=py38h6214cd6_0
   - pandocfilters=1.4.3=py38haa95532_1
   - parso=0.8.2=pyhd3eb1b0_0
   - pickleshare=0.7.5=pyhd3eb1b0_1003
@@ -136,10 +141,14 @@ dependencies:
   - r-modelwordcloud=0.1=r36h6115d3f_0
   - r-rcolorbrewer=1.1_2=r36h6115d3f_0
   - r-rcpp=1.0.1=r36h6115d3f_0
+  - r-rjava=0.9_11=r36h6115d3f_0
   - r-wordcloud=2.6=r36h796a38f_0
   - r-wordcloud2=0.2.1=r36h6115d3f_0
+  - r-wordnet=0.1_14=r36h6115d3f_0
   - r-yaml=2.2.0=r36h6115d3f_0
   - requests=2.26.0=pyhd3eb1b0_0
+  - scikit-learn=1.0.1=py38hf11a4ad_0
+  - scipy=1.7.1=py38hbe87c03_2
   - send2trash=1.8.0=pyhd3eb1b0_1
   - setuptools=58.0.4=py38haa95532_0
   - sip=4.19.13=py38ha925a31_0
@@ -148,6 +157,7 @@ dependencies:
   - sqlite=3.36.0=h2bbff1b_0
   - terminado=0.9.4=py38haa95532_0
   - testpath=0.5.0=pyhd3eb1b0_0
+  - threadpoolctl=2.2.0=pyh0d69192_0
   - tk=8.6.11=h2bbff1b_0
   - tornado=6.1=py38h2bbff1b_0
   - traitlets=5.1.1=pyhd3eb1b0_0
@@ -167,7 +177,6 @@ dependencies:
   - zstd=1.4.9=h19a0ad4_0
   - pip:
     - click==8.0.3
-    - joblib==1.1.0
     - nltk==3.6.5
     - regex==2021.11.10
     - tqdm==4.62.3
